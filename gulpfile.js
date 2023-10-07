@@ -12,7 +12,7 @@ function script() {
 function images(){
     return gulp.src('./src/images/**/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./dist/images'));
 }
 
 function styles(){
